@@ -1,7 +1,7 @@
 ARG NODE_VERSION=21.0.0
 
 #Build Stage
-FROM node:${NODE_VERSION}-alpine as base
+FROM --platform=linux/amd64 node:${NODE_VERSION}-alpine as base
 WORKDIR /home/node/app
 COPY package*.json ./
 RUN npm install
