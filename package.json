@@ -1,7 +1,7 @@
 {
   "name": "expense-manager",
   "version": "1.0.0",
-  "description": "Building expense manager with node js",
+  "description": "Expense Manager built with Typescritpt",
   "main": "server.js",
   "scripts": {
     "start": "NODE_PATH=./dist node dist/server.js",
